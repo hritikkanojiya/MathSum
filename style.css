@@ -1,3 +1,39 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+
+/* Styling */
 body {
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #ced4da82;
+  font-family: "Noto Serif", serif;
+}
+
+.navbar {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.config-container {
+  margin: 10px;
+}
+
+.modal-header {
+  background: #4776e6;
+  background: -webkit-linear-gradient(150deg, #8e54e9, #4776e6);
+  background: linear-gradient(150deg, #8e54e9, #4776e6);
+  color: #ffffff;
+}
+
+button.btn-close {
+  background: none;
+}
+
+.arithmetic .radiocontainer {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .config-container {
+    padding-right: 10px;
+  }
 }
